@@ -42,6 +42,9 @@ app.post("/signup", async (req, res) => {
 app.post("/test", (req,res) =>{
   res.send("testing")
 });
+app.post("/testing", (req,res) =>{
+  res.send("testing2")
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
